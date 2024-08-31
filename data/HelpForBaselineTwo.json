@@ -40,5 +40,9 @@
   "duplicate-id-active": "IDs of active elements must be unique",
   "scrollable-region-focusable": "Scrollable region must have keyboard access",
   "aria-hidden-focus": "ARIA hidden element must not be focusable or contain focusable elements",
-  "label-title-only": "Form elements should have a visible label"
+  "label-title-only": "Form elements should have a visible label",
+  "html-lang-valid" : "Lang attribute of the <html> element must have a valid value",
+  "input-button-name": "Button must have a name attribute",
+  "document-title": "HTML document must contain a non-empty <title> element",
+  "listitem": "<li> elements must be used semantically"  
 }
