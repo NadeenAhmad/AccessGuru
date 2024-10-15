@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+ <!-- Violation: Missing Language Attribute-->
+<html>
+<head>
+ <!-- Violation: view port disables text scaling and zooming -->
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Health Information Portal</title>
+    <style>
+        .scrollable-content {
+            max-height: 100px;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .image-button {
+            background: none;
+            border: none;
+            padding: 0;
+        }
+
+        .image-button img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .subscription-button {
+            background-color: #01147c;
+            color: white;
+            border: none;
+            padding: 1px 1px;
+            font-size: 16px;
+            display: inline-flex;
+            align-items: center;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .subscription-button img {
+            margin-right: 10px;
+        }
+
+        .vitamin-checkbox {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+        .vitamin-checkbox input[type="checkbox"] {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #fafafa; color: #888888;">
+    <!-- Violation: Contrast between foreground and background doesn’t meet WCAG 2 AA minimum contrast ratio thresholds -->
+    <div style="background-color: #333; padding: 15px;">
+    <h1 style="color: #888888;">Welcome to the Vitamin Resource Hub Portal</h1>
+    
+    <div class="content">
+        <h2>Learn how vitamins can boost your health and well-being</h2>
+
+        <!-- Violation: Image missing alt text -->
+        <img src="https://img.webmd.com/vim/live/consumer_assets/site_images/articles/health_tools/foods_high_in_vitamin_d_slideshow/1800ss_getty_rf_woman_reading_yogurt_label.jpg?resize=400px:*&amp;output-quality=70">
+
+     
+
+        <p>Essential Vitamins</p>
+        <!-- Violation: Scrollable region not accessible via keyboard -->
+        <div class="scrollable-content">     
+            <p>Vitamin A </p>
+            <p>Vitamin C</p>
+            <p>Vitamin D</p>
+            <p>Vitamin E</p>
+            <p>Vitamin K</p>
+            <p>Vitamin B1 (thiamine)</p>
+            <p>Vitamin B2 (riboflavin)</p>
+            <p>Vitamin B3 (niacin)</p>
+            <p>Vitamin B6 (pyridoxine)</p>
+            <p>Vitamin B12 (cyanocobalamin)</p>
+            <p>Pantothenic acid (B5)</p>
+            <p>Biotin (B7)</p>
+            <p>Folate (folic acid or B9)</p>
+        </div>
+ <!-- Violation: Link without discernible text -->
+<a href="vitamin-guide.pdf"><img src="https://i.ibb.co/GdbDzvv/vitaminguide.png" height="95" width="95"></a>
+
+ <p>  Select which topics you want to include in your personalized vitamin guide:</p>
+        <!-- Violation: Nested interactive elements -->
+        <div>
+            <label class="vitamin-checkbox" role="checkbox" aria-checked="false">
+                <input type="checkbox"> Special Vitamin Tips for Kids
+            </label>
+            <label class="vitamin-checkbox" role="checkbox" aria-checked="false">
+                <input type="checkbox"> Vitamins for Skin Health
+            </label>
+            <label class="vitamin-checkbox" role="checkbox" aria-checked="false">
+                <input type="checkbox"> Daily Multivitamin Recommendation
+            </label>
+        </div>
+           <!-- Violation: Button without discernible text -->
+        <button class="subscription-button" type="button">
+            <img src="https://i.ibb.co/K67w38L/Screen-Shot-2024-10-15-at-1-17-13-AM.png" width="100" height="30">
+        </button>
+    </div>
+
+    </div>
+    
+</body>
+</html>
