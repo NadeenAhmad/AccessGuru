@@ -6,6 +6,8 @@ AccessGuru is a novel system that detects web accessibility violations in HTML c
 The repository is organized as follows:
 
 1. HTMLSamples
+
+
 SampleWebPageWithAccessibilityViolations.html: An HTML file that contains several web accessibility violations. This is used to demonstrate the detection and correction processes.
 
 SampleWebPagNOViolations.html: The same HTML file after it has been fully transformed to comply with accessibility standards (i.e., no detected violations).
