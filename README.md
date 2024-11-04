@@ -18,6 +18,7 @@ SampleWebPageWithAccessibilityViolations.html: An HTML file that contains severa
 SampleWebPagNOViolations.html: The same HTML file after it has been fully transformed to comply with accessibility standards (i.e., no detected violations).
 
 2. code
+   
 This folder contains the core code for the AccessGuru system along with the Baselines used for comparison.
 
 AccessGuruCode
@@ -34,6 +35,7 @@ Baselines_Implementation_GPT_4o.ipynb: This notebook implements baseline methods
 Baselines_Implementation_Mistral_7B.ipynb: This notebook implements baseline methods [1,2,3] using the Mistral-7B model. Like the GPT-4 baseline, it serves as a comparison point for evaluating AccessGuru’s advanced prompting techniques.
 
 3. data
+   
 This folder contains datasets and related files used for evaluation and benchmarking.
 
 Baseline2Dataset.csv: Dataset from [2] containing web pages with accessibility violations used for evaluating our method AccessGuru against the baseline models.
