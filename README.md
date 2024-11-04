@@ -2,6 +2,11 @@
 ### Overview
 AccessGuru is a novel system that detects web accessibility violations in HTML code and leverages Large Language Models (LLMs) to correct them. This repository contains the implementation of AccessGuru, which includes detecting accessibility issues using Axe-Playwright and applying advanced LLM-based prompt engineering techniques to correct violations based on WCAG standards.
 
+  <img src="[https://i.ibb.co/3MTrs6c/methodology-1.png](https://i.ibb.co/kqSYJk8/fig1.jpg)" />
+
+Overview of our proposed method AccessGuru. 
+
+
 ### Repository Structure
 The repository is organized as follows:
 
